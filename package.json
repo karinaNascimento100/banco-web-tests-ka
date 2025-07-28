@@ -1,0 +1,23 @@
+{
+  "name": "banco-web-tests-ka",
+  "version": "1.0.0",
+  "description": "Repositório para testes via web utilizando a ferramenta Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karinaNascimento100/banco-web-tests-ka.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karinaNascimento100/banco-web-tests-ka/issues"
+  },
+  "homepage": "https://github.com/karinaNascimento100/banco-web-tests-ka#readme",
+  "devDependencies": {
+    "cypress": "^14.5.3"
+  }
+}
