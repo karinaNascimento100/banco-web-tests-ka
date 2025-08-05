@@ -4,7 +4,9 @@
   "description": "Repositório para testes via web utilizando a ferramenta Cypress",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run",
+    "test": "cypress run --env URL=http://localhost:4000",
+    "test-qa": "cypress run --env URL=http://www.exampleqa.com",
+    "test-prod": "cypress run --env URL=http://www.exampleproducao.com",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
     "cypress:run:headed": "cypress run --headed --browser chrome",
