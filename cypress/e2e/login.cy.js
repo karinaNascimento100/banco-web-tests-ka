@@ -1,6 +1,6 @@
 describe('Login', () => {
   beforeEach(() => {
-    cy.visit(Cypress.env('URL'));
+    cy.visit('/');
     cy.get('#username', { timeout: 10000 }).should('be.visible');
     cy.get('#senha', { timeout: 10000 }).should('be.visible');
   });
