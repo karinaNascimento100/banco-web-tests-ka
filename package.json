@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress run",
+    "test:report": "cypress run --reporter cypress-mochawesome-reporter",
     "test-qa": "cypress run",
     "test-prod": "cypress run",
     "cypress:open": "cypress open",
@@ -25,7 +26,10 @@
   },
   "homepage": "https://github.com/karinaNascimento100/banco-web-tests-ka#readme",
   "devDependencies": {
-    "cypress": "^14.5.3"
+    "cypress": "^14.5.3",
+    "cypress-mochawesome-reporter": "^4.0.0",
+    "mochawesome-merge": "^5.0.0",
+    "mochawesome-report-generator": "^6.2.0"
   },
   "dependencies": {
     "aggregate-error": "^3.1.0",
